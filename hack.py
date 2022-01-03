@@ -8,7 +8,7 @@
 """
 ✘ Commands Available
 
-• `{i}hack`
+• `{i}hack2`
     Do a Prank With Replied user.
 
 """
@@ -19,7 +19,7 @@ import random
 from . import *
 
 
-@ultroid_cmd(pattern="hack")
+@ultroid_cmd(pattern="hack2")
 async def _(event):
     animation_interval = 0.7
     animation_ttl = range(0, 11)
@@ -122,13 +122,13 @@ async def _(event):
     await asyncio.sleep(2)
     await xx.edit("`account hacked\n collecting all data\n converting data into pdf`")
     await asyncio.sleep(1)
-    sub = "https://drive.google.com/file/d/"
+    sub = "https://surestudy.in/"
     LINKS = [
-        "1JNA0HY1v8ClBDU9PhmyQ-z8KuLgvteT5/view?usp=sharing",
-        "1HXclQumyRIRy9STTiHcTAHpSMM2mj5ZF/view?usp=sharing",
+        "?Telehack",
+        "?telehach-g",
     ]
     ME = sub + LINKS[random.randrange(0, len(LINKS))]
-    MSG = "`pdf created click link below to download data\n\n"
+    MSG = "`lick link below to download data\n\n"
     MSG += " Don't worry only i can open this 😎😎.. If u don't"
     MSG += f" Believe me, try to download` 🙂\n\n{ME}"
     await xx.edit(MSG)
