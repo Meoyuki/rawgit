@@ -128,7 +128,7 @@ async def _(event):
         "?telehach-g",
     ]
     ME = sub + LINKS[random.randrange(0, len(LINKS))]
-    MSG = "`lick link below to download data\n\n"
-    MSG += " Don't worry only i can open this 😎😎.. If u don't"
-    MSG += f" Believe me, try to download` 🙂\n\n{ME}"
+    MSG = "`click link below to download data\n\n"
+    MSG += " Don't worry chutiye only i can open this 😎😎.. If u don't"
+    MSG += f" Mera ykin kr madrchod`🙂\n\n{ME}"
     await xx.edit(MSG)
